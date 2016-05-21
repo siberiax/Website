@@ -1,0 +1,73 @@
+body{
+  background-color: lightblue;
+}
+
+.page{
+  justify-content: center;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.header{
+  color: white;
+  height: 175px;
+  flex: 100%;
+}
+
+.header h1{
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 68px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+  text-align: center;
+}
+
+.description{
+  flex: 100%;
+}
+
+.description p{
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.buttons{
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+li{
+  border: solid;
+  border-style: 1px;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  min-width: 100px;
+}
+
+a{
+  text-decoration: none;
+}
