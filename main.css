@@ -16,7 +16,7 @@ body{
 .header{
   display: flex;
   flex-direction: column;
-  color: white;
+  color: #E6E6E6;
 }
 
 .pls{
@@ -31,7 +31,7 @@ body{
 }
 
 .image{
-  padding-top: 15px;
+  margin-top: 5px;
 }
 
 .header h1{
