@@ -17,22 +17,21 @@ body{
   display: flex;
   flex-direction: column;
   color: white;
-  height: 175px;
 }
 
 .pls{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 175px;
+  height: 75px;
+}
+
+.header2{
+  height: 100px;
 }
 
 .image{
   padding-top: 15px;
-}
-
-.header2{
-  padding-top: 75px;
 }
 
 .header h1{
