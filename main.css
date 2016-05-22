@@ -14,9 +14,25 @@ body{
 }
 
 .header{
+  display: flex;
+  flex-direction: column;
   color: white;
   height: 175px;
-  flex: 100%;
+}
+
+.pls{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 175px;
+}
+
+.image{
+  padding-top: 15px;
+}
+
+.header2{
+  padding-top: 75px;
 }
 
 .header h1{
@@ -29,11 +45,8 @@ body{
   text-align: center;
 }
 
-.description{
-  flex: 100%;
-}
-
 .description p{
+  display: block;
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
 	font-size: 24px;
 	font-style: normal;
@@ -60,6 +73,7 @@ ul{
 }
 
 li{
+  display: block;
   border: solid;
   border-style: 1px;
   padding: 5px;
